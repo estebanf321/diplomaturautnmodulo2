@@ -1,0 +1,126 @@
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+h1{
+    color: rgb(92, 197, 205);
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    font-size:30px;
+    background: gray;
+}
+
+h3{
+    color: rgb(131, 26, 91);
+    font-size:medium;
+    font-style: italic;  
+}
+
+h4{
+    font-family: 'Oswald', sans-serif;
+    font:size 25px;
+    /* font-weight: bolder; */
+    text-transform: uppercase;
+}
+
+p{
+    color: darkblue;
+    font-style: italic;
+    font-size:medium;
+    font-weight: bold;
+}
+
+li{
+    font-style: oblique;
+    font-size: medium;
+}
+
+
+#testimonio{
+    width: 600px; /*ancho*/
+    height: 120px; /*alto*/
+    background-color: rgb(105, 47, 214);
+    font-size:large;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px 0;
+    box-shadow: 15px 10px 5px rgb(37, 241, 129);
+    /* eje x- eje y -blur(desenfocado) -color */
+}
+
+.destacados{
+    color: rgb(37, 241, 129);
+}
+
+.rojo{
+    width: 600px; /*ancho*/
+    height: 120px; /*alto*/
+    background-color: red;
+    color:white;
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+    padding: 20px;
+    border: 5px solid rgb(158, 38, 88);
+    box-sizing: border-box; /* incluye el borde en el ancho total, no le suma ancho*/
+}
+
+.azul{
+    width: 600px; /*ancho*/
+    height: 120px; /*alto*/
+    background-color: blue;
+    color:white;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+.caja{
+    background: yellow;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 1px solid black;
+}
+
+.caja p{
+     margin: 0;
+    /* mata el margen que viene por defecto*/
+    }
+
+.cajaimg{
+
+    background: chocolate;
+}
+
+.cajaimg i{
+
+    font-size: xx-large;
+ 
+
+}
+
+
+#amarillo{
+    width: 300px; /*ancho*/
+    height: 120px; /*alto*/
+    background-color:yellow;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#azul1{
+    width: 400px; /*ancho*/
+    height: 120px; /*alto*/
+    background-color: blue;
+    color:white;
+    box-shadow: -15px -10px 5px rgb(79, 141, 190);
+    padding: 5px;
+}
+
+#amarillo:hover{
+    background: rgb(92, 241, 54);
+}
