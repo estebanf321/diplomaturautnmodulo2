@@ -1,0 +1,40 @@
+.contenedor{
+border: 2px solid;
+/* width: 600px;
+height: 600px; */
+margin: 0 auto;
+display: flex;
+/* align-items: flex-end;
+flex-direction: column; */
+/* align-items: center;
+flex-direction: row-reverse; */
+align-items: center;
+justify-content: space-between;
+   
+
+
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.roja{
+    background: red;
+    color: white;
+}
+
+.azul{
+    background: blue;
+    color: white;
+}
+
+.verde{
+    background: green;
+    color: white;
+}
