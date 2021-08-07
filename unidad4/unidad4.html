@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home ASFC</title>
+
+    <!-- carga de css3 para boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- carga de iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="unidad4.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid" style="background-color:rgb(138, 147, 156)">
+        <h1>Azcuenaga Sur Football Club</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ASFC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Más
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Fotos</a></li>
+                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Comunidad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mucho Más que un
+                            Club</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="fotos/jugadores.jpg" class="d-block w-100" alt="jugadores">
+                <div class="carousel-caption d-none d-md-block" style="color:yellow;font-size: larger;">
+                    <h5>Jugadores</h5>
+                    <p>Los chicos que forman parte del plantel.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="fotos/tecnico.jpg" class="d-block w-100" alt="cuerpo tecnico">
+                <div class="carousel-caption d-none d-md-block" style="color:yellow;font-size: larger;">
+                    <h5>Cuerpo Técnico</h5>
+                    <p>Los profesionales a cargo del plantel.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="fotos/estadio.jpg" class="d-block w-100" alt="estadio">
+                <div class="carousel-caption d-none d-md-block" style="color:yellow;font-size: larger;">
+                    <h5>El Estadio</h5>
+                    <p>Nuestra cancha, con nuestra gente.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="text-center">
+        <img src="fotos/LOGO.jpg" class="rounded" alt="logo ">
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: green;">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://www.whatsapp.com/?lang=es">
+                    <p> Whatsapp </p>
+                </a>
+            </div>
+            <div class="col" style="background-color: blue;">
+                <i class="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/CLUBAZCUENAGASUR/?ref=page_internal">
+                    <p> Facebook </p>
+                </a>
+            </div>
+            <div class="col" style="background-color: red;">
+                <i class="fab fa-youtube"></i>
+                <a href="https://www.youtube.com/">
+                    <p> Youtube </p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color:rgb(138, 147, 156)">
+        <h4> ASFC </h4>
+    </div>
+
+
+    <!-- carga de js para boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
